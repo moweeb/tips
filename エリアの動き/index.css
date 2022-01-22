@@ -1,0 +1,10 @@
+img{
+  width:600px;
+}
+
+div .box{
+  background-color:red;
+  text-align:center;
+  width:500px;
+  margin-left:200px;
+}

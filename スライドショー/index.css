@@ -1,0 +1,19 @@
+/*--------画像サイズ調整---------*/
+img{
+	width:100%;
+}
+
+/*-----------height調整----------*/
+.slick-slide{
+	height:auto!important;
+}
+/*------------------------------*/
+
+
+
+.slick-next{
+    right:30px!important;
+}
+.slick-prev{
+    left:30px!important;
+}

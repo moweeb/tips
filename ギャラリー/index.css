@@ -1,0 +1,40 @@
+/*==================================================
+ギャラリーのためのcss
+===================================*/
+.gallery{
+columns: 3;/*段組みの数*/
+padding:0 100px;/*ギャラリー左右に余白をつける*/
+margin:0;
+}
+
+.gallery li {
+margin-bottom:100px;/*各画像下に余白をつける*/
+list-style:none;
+height:24vw;
+text-align:center;
+}
+.gallery li a{
+  text-decoration:none;
+  color:black;
+}
+
+
+/*ギャラリー内のイメージは横幅100%にする*/
+.gallery img{
+	width:25vw;
+  height:25vw;
+	height:auto;
+	vertical-align: bottom;/*画像の下にできる余白を削除*/}
+
+/*　横幅900px以下の段組み設定　*/
+@media only screen and (max-width: 900px) {
+	.gallery{
+	columns:3;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.gallery{
+	columns: 2;
+	}
+}
