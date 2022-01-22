@@ -7,6 +7,7 @@ $(function(){
     $(this).css('transform', big);
     $(".second-box").css('transform', normal);
     $(".third-box").css('transform', normal);
+//     :not で簡潔に書けるかも。 
     $(".text-space").html("<p>これは1のテキスト</p>");
   });
   $(".second-box").click( function(event){
